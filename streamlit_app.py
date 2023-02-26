@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_URL = 'http://localhost:5000'
+API_URL = 'http://127.0.0.1:5000'
 #API_URL = 'https://hello-world-app-flask.herokuapp.com/'
 
 @st.cache(show_spinner=False)
